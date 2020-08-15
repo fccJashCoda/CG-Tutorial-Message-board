@@ -1,0 +1,32 @@
+# Full Stack Message Board
+
+- [x] Create Server Folder
+  - [x] Init npm
+  - [x] Add express morgan cors
+  - [x] Craete Hello World Route
+- [] Create Client Folder
+  - [x] Vue create client
+  - [x] add bootswatch CSS
+  - [] Homepage Layout
+- [] Add DB to server
+  - [] Add monk joi
+  - [] Create message model
+  - [] Create route to add message to db
+    - [] validate message with joi
+      - username - default to anonymous
+      - subject
+      - message
+      - imageURL
+      - craeted_at
+    - [] insert message into db
+    - [] respong with inserted message
+- [] Create new message from on client
+  - [] Submit form - fetch POST to server
+  - [] Show any errors
+  - [] Show new message on page
+- [] When page loads show all messages on page
+  - [] Server route to GET all messages
+- [] User can reply to a message
+  - [] Reply appears under original message
+- [] Group message into categories
+- [] Deploy
