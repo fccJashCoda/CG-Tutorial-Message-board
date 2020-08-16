@@ -4,29 +4,33 @@
   - [x] Init npm
   - [x] Add express morgan cors
   - [x] Craete Hello World Route
-- [] Create Client Folder
+- [x] Create Client Folder
   - [x] Vue create client
   - [x] add bootswatch CSS
-  - [] Homepage Layout
-- [] Add DB to server
-  - [] Add monk joi
-  - [] Create message model
-  - [] Create route to add message to db
-    - [] validate message with joi
+  - [x] Homepage Layout
+- [x] Add DB to server
+  - [x] Add monk joi
+  - [x] Create message model
+  - [x] Create route to add message to db
+    - [x] validate message with joi
       - username - default to anonymous
       - subject
       - message
       - imageURL
       - craeted_at
-    - [] insert message into db
-    - [] respong with inserted message
-- [] Create new message from on client
-  - [] Submit form - fetch POST to server
-  - [] Show any errors
-  - [] Show new message on page
-- [] When page loads show all messages on page
-  - [] Server route to GET all messages
+    - [x] insert message into db
+    - [x] respond with inserted message
+- [x] When page loads show all messages on page
+  - [x] Server route to GET all messages
+- [x] Create new message form on client
+  - [x] Submit form - fetch POST to server
+  - [x] Show any errors
+  - [x] Show new message on page
+- [x] Fix linting errors
+- [] Deploy
+
+## to be continued
+
 - [] User can reply to a message
   - [] Reply appears under original message
 - [] Group message into categories
-- [] Deploy
